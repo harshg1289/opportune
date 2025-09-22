@@ -1,0 +1,40 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\HARSH\.npmrc
+5 silly config load:file:C:\SPB_Data\.npmrc
+6 silly config load:file:C:\Users\HARSH\Desktop\job_hunt\UsersHARSHAppDataRoamingnpm\etc\npmrc
+7 verbose title npm create vite@latest frontend
+8 verbose argv "create" "vite@latest" "frontend"
+9 verbose logfile logs-max:10 dir:C:\Users\HARSH\Desktop\job_hunt\UsersHARSHAppDataLocalnpm-cache\_logs\2025-09-20T20_03_44_441Z-
+10 verbose logfile C:\Users\HARSH\Desktop\job_hunt\UsersHARSHAppDataLocalnpm-cache\_logs\2025-09-20T20_03_44_441Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 http fetch GET 200 https://registry.npmjs.org/create-vite 177ms (cache miss)
+14 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+15 http fetch GET 200 https://registry.npmjs.org/npm 267ms
+16 silly idealTree buildDeps
+17 silly fetch manifest create-vite@7.1.2
+18 silly packumentCache full:https://registry.npmjs.org/create-vite cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/create-vite 121ms (cache miss)
+20 silly packumentCache full:https://registry.npmjs.org/create-vite set size:undefined disposed:false
+21 silly placeDep ROOT create-vite@7.1.2 OK for:  want: 7.1.2
+22 silly reify moves {}
+23 silly audit bulk request { 'create-vite': [ '7.1.2' ] }
+24 http cache create-vite@https://registry.npmjs.org/create-vite/-/create-vite-7.1.2.tgz 0ms (cache hit)
+25 silly tarball no local data for create-vite@https://registry.npmjs.org/create-vite/-/create-vite-7.1.2.tgz. Extracting by manifest.
+26 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 278ms
+27 silly audit report {}
+28 http fetch GET 200 https://registry.npmjs.org/create-vite/-/create-vite-7.1.2.tgz 352ms (cache miss)
+29 verbose cwd C:\Users\HARSH\Desktop\job_hunt
+30 verbose os Windows_NT 10.0.26100
+31 verbose node v22.14.0
+32 verbose npm  v10.9.2
+33 notice
+33 notice New [31mmajor[39m version of npm available! [31m10.9.2[39m -> [34m11.6.0[39m
+33 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.6.0[39m
+33 notice To update run: [4mnpm install -g npm@11.6.0[24m
+33 notice  { force: true, [Symbol(proc-log.meta)]: true }
+34 verbose exit 0
+35 info ok
